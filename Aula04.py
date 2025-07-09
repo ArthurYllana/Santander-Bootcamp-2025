@@ -27,3 +27,8 @@ else:
     print("Menor de idade, não pode tirar CNH, volte quando tiver 18")
 
 
+
+saldo = 1000
+saque = input(int("Digite o valor que deseja sacar: "))
+status = "Sucesso" if saldo >= saque else "Falha"
+print(f"{status} ao realziar o saque!")
