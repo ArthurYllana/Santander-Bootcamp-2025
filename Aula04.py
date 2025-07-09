@@ -29,6 +29,6 @@ else:
 
 
 saldo = 1000
-saque = input(int("Digite o valor que deseja sacar: "))
+saque = int(input("Digite o valor que deseja sacar: "))
 status = "Sucesso" if saldo >= saque else "Falha"
 print(f"{status} ao realziar o saque!")
