@@ -35,3 +35,7 @@ print(linguagens.sort(reverse=True))
 print(linguagens.sort(key = lambda x: len(x)))
 print(linguagens.sort(key = lambda x: len(x), reverse=True))
 print(sorted(linguagens))
+
+tupla = ("p", "y", "t", "h", "o", "n",)
+
+print(tupla[2:])
